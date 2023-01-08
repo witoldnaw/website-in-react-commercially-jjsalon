@@ -1,0 +1,26 @@
+
+.HeroWrapper {
+    position: relative;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-top: 20vw;
+    transition: 0.2s
+}
+
+.HeroWrapper p{
+    margin-left: 3vw;
+    position: absolute;
+    /* overflow: visible; */
+    left: 0;
+    z-index: 4;
+    font-size: 80px;
+    font-family: Italianno;
+}
+
+.logo {
+    width: 65vw;
+    right: 0;
+
+}
+

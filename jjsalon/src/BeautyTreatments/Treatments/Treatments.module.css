@@ -1,0 +1,20 @@
+.treatmentsWrapper {
+    background-color: rgba(220, 194, 156, 1);;
+    text-align: center;
+    line-height: 2.3vw;
+    padding: 4vw 10vw;
+    margin-bottom: 4vw;
+} 
+
+.treatmentsWrapper li {
+    list-style-type: disc;
+    list-style-position: inherit;
+}
+
+ul {
+    list-style-position: inside;
+}
+
+.treatmentsPageWrapper {
+padding: 18vw 10vw 5vw 10vw;
+}

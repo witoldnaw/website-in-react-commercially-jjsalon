@@ -1,0 +1,16 @@
+.masonry {
+	column-count: 3;
+	column-gap: 16px;
+    padding-top: 25vw;
+    margin: 0 3vw;
+}
+
+.masonry, .picturesWrapper {
+  display: inline-block;
+  margin-bottom: 16px;
+  width: 100%;
+}
+
+.pictures {
+    width: 90%;
+  }
