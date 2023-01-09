@@ -29,19 +29,11 @@ export function Header() {
             <>
     <div className={styles.headerWrapper}  style={{
           backgroundColor: navColor,
-          transition: "all 1s",
-          position: "fixed",
-          width: "100%",
           gridTemplateRows: navGridTemplateRows,
         }}>
 
 <div className={styles.HeaderDataWrapper} style={{
           display: navDisplay,
-          transition: "all 1s",
-          position: "fixed",
-          width: "100%",
-          margin: "0"
-          
   }}>
     <div className={styles.adressWrapper}>
       <div>

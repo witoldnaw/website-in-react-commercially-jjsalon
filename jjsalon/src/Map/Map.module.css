@@ -1,15 +1,5 @@
 .imageMapWrapper {
     width: 100%;
-    height: 32vw;
-    background-image: url(map.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: top;
-    /* transition: transform .2s; */
+    height: 34vw;
 }
 
-.imageMapWrapper:hover {
-    overflow-y: hidden;
-    overflow-x: hidden;
-    /* transform: scale(1.05); */
-}

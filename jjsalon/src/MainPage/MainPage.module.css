@@ -1,35 +1,30 @@
-.mapa {
-    border-radius: 30px;
-
-}
-
 .MainWrapper {
-    display: flex;
     background-image: url(IMG_2026.jpg);
-    background-size: cover;
+    background-size:cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    justify-content: center;
-    margin: 4vw 0;
+    /* justify-content: center; */
+    margin: 0 0;
     height: 40vw;
-    /* background: black; */
     opacity: 0.9;
     justify-content: left;
+    overflow: hidden;
 }
 
 .reservationWrapper {
-    height: 25vw;
+    height: 30vw;
     width: 50vw;
-    margin: 11vw 2vw;
+    margin: 10vw 2vw;
     font-weight: 500;
-    font-size: 1.8rem;
+    font-size: 2.2vw;
     text-align: center;
     color: white;  
     z-index: 3;
+    line-height: 3vw;
 }
 
 .reservationWrapper span{
-    font-size: 1.1rem;
+    font-size: 1.8vw;
     font-weight: 400;
 } 
 
@@ -38,19 +33,72 @@
 }
 
 .btnReservationWrapper {
-    border-style: solid;
+    border-style:solid;
+    border-width: 0.3vw;
     border-color: white;
     padding: 1.2vw;
-    font-size: 1.2rem;
+    font-size: 2vw;
+    font-weight: bold;
     background-color: transparent;
     color: white;
-    font-family: Montserrat;
-    font-weight: 500;
 }
 
 .btnReservationWrapper:hover {
-    /* background-color: black; */
     opacity: 0.6;
+}
+
+
+@media (min-width: 1000px) {
+
+    .MainWrapper {
+        display: flex;
+        background-image: url(IMG_2026.jpg);
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        justify-content: center;
+        margin: 4vw 0;
+        height: 40vw;
+        /* background: black; */
+        opacity: 0.9;
+        justify-content: left;
+    }
+    
+    .reservationWrapper {
+        height: 25vw;
+        width: 50vw;
+        margin: 11vw 2vw;
+        font-weight: 500;
+        font-size: 1.8rem;
+        text-align: center;
+        color: white;  
+        z-index: 3;
+    }
+    
+    .reservationWrapper span{
+        font-size: 1.1rem;
+        font-weight: 400;
+    } 
+    
+    .btnReservation {
+        margin-top: 2vw;
+    }
+    
+    .btnReservationWrapper {
+        border-style: solid;
+        border-color: white;
+        padding: 1.2vw;
+        font-size: 1.2rem;
+        background-color: transparent;
+        color: white;
+        font-family: Montserrat;
+        font-weight: 500;
+    }
+    
+    .btnReservationWrapper:hover {
+        opacity: 0.6;
+    }
+
 }
 
 

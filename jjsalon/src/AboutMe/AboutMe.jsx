@@ -13,7 +13,7 @@ export const AboutMe = () => {
 </div>
 
 
-      <div className={styles.aboutMe}  id="aboutme">
+      <div className={styles.aboutMe}>
 
 		<p>
 		Salon kosmetyczny Joanna Jaruszewska  <br></br> specjalizuje się w stylizacji paznokci oraz zabiegach pielęgnacyjnych twarzy, szyi i dekoltu. 
@@ -22,7 +22,7 @@ W salonie stawiam na bezpieczeństwo zabiegów i profesjonalizm.
 
 Salon kosmetyczny Joanna Jaruszewska to przytulny salon z dwoma gabinetami i komfortową recepcją, ma dobry dojazd i darmowe miejsca parkingowe .
 		</p>
-    <div className={styles.btn22}>
+    <div>
       <Link to="/cennik">
         <button className={styles.btn}>Zobacz cennik</button>
         </Link>

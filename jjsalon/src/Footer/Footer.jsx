@@ -54,9 +54,9 @@ export function Footer() {
                 <div className={styles.HouersWrapper}>
                     <h5>Godziny otwarcia</h5>
                     <div className={styles.kontakt}>
-                        <h7>Poniedziałek - Piątek: 10 - 18</h7>
-                        <h7>Sobota: 10 - 16</h7>
-                        <h7>Niedziela: nieczynne</h7>
+                        <p>Poniedziałek - Piątek: 10 - 18</p>
+                        <p>Sobota: 10 - 16</p>
+                        <p>Niedziela: nieczynne</p>
                     </div>
                 </div>
             </div>
