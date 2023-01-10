@@ -13,7 +13,7 @@ export function Me() {
         }, []);
     return (
         <>
-<div className={styles.emptyDiv}>__</div>
+<div className={styles.emptyDiv}>'</div>
         <div className={styles.meWrapper}>
             <img className={styles.myPhoto} src={myPhoto} alt="myPhoto"></img>
             <p>Nazywam się Joanna Jaruszewska i jestem

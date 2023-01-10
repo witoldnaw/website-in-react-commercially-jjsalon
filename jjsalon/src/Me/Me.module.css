@@ -4,7 +4,7 @@
     text-align: center;
     align-items: center;
     margin: 0 0 5vw 0;
-    padding: 2vw 7vw;
+    padding: 2vw 13vw;
     line-height: 3.2vw;
     background-color: rgba(220, 194, 156, 1);
 }
@@ -16,13 +16,13 @@
 
 .myPhoto {
     text-align: center;
-    width: 70%;
-    padding-right: 3vw;
+    width: 100%;
+    /* padding: 2vw 20vw; */
 
 }
 
 .emptyDiv {
-    padding-top: 22vw;
+    padding-top: 20vw;
 }
 
 
@@ -34,14 +34,16 @@
         display: flex;
         margin: 0 0 5vw 0;
         line-height: 2.5vw;
+        padding: 0;
     }
     
     .meWrapper p {
         font-size: 1.5vw;
+        padding: 1.5vw;
     }
     
     .myPhoto {
-        width: 40vw;
+        width: 50vw;
         padding-right: 3vw;
     
     }
