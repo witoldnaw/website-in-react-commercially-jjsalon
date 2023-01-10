@@ -71,7 +71,7 @@ export const FAQ = () => {
                                                                   <span>{e.description}</span>
                                                                   <br></br>
                                                                   <br></br>
-                                                                  <Link to={e.link}><p><b>Szczegóły...</b></p></Link>
+                                                                  <Link style={{color: 'rgba(44, 44, 44, 1)'}} className={styles.linkStyle} to={e.link}><p><b>Szczegóły...</b></p> </Link>
                                                             </div>
                                                       </div>
                                                 )}

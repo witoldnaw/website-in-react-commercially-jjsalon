@@ -11,7 +11,7 @@ import photo9 from "./IMG_2036.jpg"
 import photo10 from "./IMG_2041.jpg"
 
 
-export function Pictures() {
+export function Picturessadaf() {
     return (
         <>
 <div className={styles.masonry}>

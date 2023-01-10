@@ -13,13 +13,14 @@ import photo12 from "./paznok4.jpg"
 import photo13 from "./paznok5.jpg"
 import photo14 from "./paznok6.jpg"
 import photo15 from "./paznok7.jpg"
-import photo16 from "./paznok2.jpg"
+// import photo16 from "./paznok2.jpg"
+import { Box } from "@mui/material"
 
 
 export function Pictures() {
     return (
         <>
-<div className={styles.masonry}>
+<Box className={styles.masonry}>
         <div className={styles.picturesWrapper}>
             <img className={styles.pictures} src={photo1} alt="nails"></img>
         </div>
@@ -62,12 +63,10 @@ export function Pictures() {
         <div className={styles.picturesWrapper}>
             <img className={styles.pictures} src={photo15} alt="nails"></img>
         </div>
-        <div className={styles.picturesWrapper}>
+        {/* <div className={styles.picturesWrapper}>
             <img className={styles.pictures} src={photo16} alt="nails"></img>
-        </div>
-
-
-        </div>
+        </div> */}
+        </Box>
         </>
         )
         }

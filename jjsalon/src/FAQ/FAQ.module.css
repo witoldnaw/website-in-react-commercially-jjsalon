@@ -105,6 +105,18 @@
   color: rgba(44, 44, 44, 1);
 }
 
+a {
+  color: rgba(44, 44, 44, 1);
+}
+
+a:active {
+  color: rgba(44, 44, 44, 1);
+}
+
+a:visited {
+  color: rgba(44, 44, 44, 1);
+}
+
 /* ----- */
 
 @media (min-width: 1000px) {

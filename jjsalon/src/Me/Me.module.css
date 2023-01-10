@@ -4,7 +4,7 @@
     text-align: center;
     align-items: center;
     margin: 0 0 5vw 0;
-    padding: 2vw 13vw;
+    padding: 2vw 2vw;
     line-height: 3.2vw;
     background-color: rgba(220, 194, 156, 1);
 }
@@ -16,7 +16,8 @@
 
 .myPhoto {
     text-align: center;
-    width: 100%;
+    width: 70vw;
+    height: 49vw;
     /* padding: 2vw 20vw; */
 
 }
