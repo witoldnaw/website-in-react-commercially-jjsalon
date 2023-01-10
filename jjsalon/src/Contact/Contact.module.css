@@ -1,7 +1,7 @@
 
   
   form {
-    width: 25vw;
+    width: 70vw;
     margin: 0 auto;
     padding: 22vw 0 8vw 0;
   }
@@ -92,52 +92,46 @@
   input[type="submit"] {
     -webkit-appearance: none;
   }
-  
-  /* .formWrapper {
-    text-align: center;
-  } */
 
   .formWrapper p {
     padding-bottom: 1.5vw;
-    font-size: 2.2vw;
+    font-size: 4.5vw;
   }
 
   .contactWrapper {
     display: flex;
+    flex-direction: column-reverse;
     justify-content: space-around;
     margin: 0 10vw;
-    /* margin: 0 5vw; */
   }
 
   .registerSocialMedia {
     padding-top: 22vw;
     line-height: 34px;
-    text-align: left;
+    text-align: center;
     font-size: 1.5vw;
   }
 
   .registerSocialMedia p {
-    padding-bottom: 1.5vw;
+    padding-bottom: 5vw;
     text-align: center;
-    font-size: 2.2vw;
+    font-size: 5vw;
   }
 
   .contactPhone {
-    display: flex;
-    align-items: center;
+    justify-items: center;
     padding-top: 1vw;
-
   }
 
   .contactPhone span {
     padding-left: 1vw;
-    font-size: 2.1vw;
+    font-size: 6vw;
   }
 
   .iconContactWrapper {
-    padding-top: 4vw;
+    padding-top: 9vw;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
   }
 
   .fontUpload:hover {
@@ -151,4 +145,47 @@
   a:visited {
     text-decoration: none;
     color: rgba(44,44,44,1);
+  }
+
+
+
+  @media (min-width: 800px) {
+
+    form {
+      width: 25vw;
+    }
+
+    .formWrapper p {
+      font-size: 2.2vw;
+    }
+  
+    .contactWrapper {
+      display: flex;
+      flex-direction: row;
+    }
+  
+    .registerSocialMedia {
+      padding-top: 22vw;
+      text-align: left;
+    }
+  
+    .registerSocialMedia p {
+      padding-bottom: 1.5vw;
+      font-size: 2.2vw;
+    }
+  
+    .contactPhone {
+      display: flex;
+    }
+  
+    .contactPhone span {
+      font-size: 2.1vw;
+    }
+  
+    .iconContactWrapper {
+      padding-top: 4vw;
+      justify-content: space-between;
+    }
+ 
+  
   }

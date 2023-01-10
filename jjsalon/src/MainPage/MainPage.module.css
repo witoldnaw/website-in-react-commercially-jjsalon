@@ -69,14 +69,14 @@
         width: 50vw;
         margin: 11vw 2vw;
         font-weight: 500;
-        font-size: 1.8rem;
+        font-size: 2vw;
         text-align: center;
         color: white;  
         z-index: 3;
     }
     
     .reservationWrapper span{
-        font-size: 1.1rem;
+        font-size: 1.3vw;
         font-weight: 400;
     } 
     

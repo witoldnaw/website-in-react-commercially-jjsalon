@@ -4,7 +4,7 @@
   grid-template-columns: 1fr 1fr 1fr;
   padding: 2vw;
   grid-template-rows: auto;
-  height: 36vw;
+  height: 31vw;
 }
 
 .iconWrapper {
@@ -27,14 +27,14 @@
 .iconPhone {
   grid-column: 1;
   grid-row: 1 / 2;
-  font-size: 3vw;
+  font-size: 2.5vw;
   padding-right: 1vw;
 }
 
 .iconMap {
   grid-column: 1;
   grid-row: 2 / 3;
-  font-size: 3vw;
+  font-size: 2.5vw;
   padding-right: 1vw;
 }
 
@@ -55,7 +55,7 @@
 
 h5 {
   margin: 0;
-  font-size: 2.7vw;
+  font-size: 2vw;
   font-weight: 500;
 }
 
@@ -66,9 +66,9 @@ h5 {
   grid-template-rows: auto;
   gap: 1vw;
   text-align: center;
-  font-size: 2.2vw;
+  font-size: 1.7vw;
   align-items: center;
-  margin-top: 2vw;
+  margin-top: 1vw;
 }
 
 .HouersWrapper {
@@ -97,12 +97,12 @@ hr {
 
 .btn {
   margin: 2vw 2vw;
-  width: 17vw;
-  height: 6vw;
+  width: 14vw;
+  height: 5vw;
   border-style: none;
   background-color: rgba(44, 44, 44, 1);
   color: white;
-  font-size: 3vw;
+  font-size: 2.1vw;
   font-weight: 500;
 }
 
@@ -124,20 +124,20 @@ hr {
   }
 
   .iconPhone {
-    font-size: 1vw;
+    font-size: 2vw;
   }
   
   .iconMap {
-    font-size: 1vw;
+    font-size: 2vw;
   }
   
   h5 {
     margin: 0;
-    font-size: 20px;
+    font-size: 1.9vw;
   }
   
   .kontakt {
-    font-size: 18px;
+    font-size: 1.7vw;
   }
 
   .btn {

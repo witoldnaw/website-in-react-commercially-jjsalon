@@ -85,13 +85,13 @@ return (
     <td> X-Peel: skóra dojrzała z przebarwieniami </td>
     <td> 190 </td>
   </tr>
-</table>
+{/* </table>
 
 <table className={styles.priceListWrapperSecond}>
-  <tr>
+  {/* <tr>
     <th> Nazwa zabiegu </th>
     <th> Cena zł </th>
-  </tr>
+  </tr> */}
   <tr>
     <td> Manicure klasyczny bez malowania </td>
     <td> 45 </td>
@@ -154,7 +154,7 @@ return (
   </tr>
   <tr>
     <td> Cyrkonia 1 szt. </td>
-    <td> +0.50 gr</td>
+    <td> +0.5</td>
   </tr>
   <tr>
   <td> Folia, pyłki, drobne zdobienia</td>
@@ -162,7 +162,7 @@ return (
   </tr>
   <tr> 
     <td> Inne zdobienia</td>
-  <td> Wycena indywidualna</td>
+  <td> </td>
   </tr>
 </table>
 </div>

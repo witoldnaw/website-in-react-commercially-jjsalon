@@ -13,8 +13,8 @@ export const FAQ = () => {
 
       const beautyTreatments = [
             { id: 1, name: 'Retix C', description: 'Intensywna kuracja odmładzająca i odbudowująca skórę z retinolem, witaminą C i antyoksydantami.', photo: zdjecie1, link: "retixc" },
-            { id: 2, name: 'Mikrodermabrazja', description: 'To zabieg pielęgnacyjny skóry polegający na mechanicznym ścieraniu martwego naskórka.', photo: zdjecie2, link: "mikrodermabrazja" },
-            { id: 3, name: 'Peeling kawitacyjny', description: 'To zabieg polegający na oczyszczeniu skóry za pomocą ultradźwięków. Usuwanie zanieczyszczeń oraz martwych komórek przebiega bezpiecznie i bezboleśnie.', photo: zdjecie3, link: "peelingkawitacyjny" },
+            { id: 2, name: 'Mikrodermabrazja', description: 'To zabieg pielęgnacyjny skóry polegający na mechanicznym ścieraniu martwego naskórka.', photo: zdjecie3, link: "mikrodermabrazja" },
+            { id: 3, name: 'Peeling kawitacyjny', description: 'To zabieg polegający na oczyszczeniu skóry za pomocą ultradźwięków. Usuwanie zanieczyszczeń oraz martwych komórek przebiega bezpiecznie i bezboleśnie.', photo: zdjecie2, link: "peelingkawitacyjny" },
             { id: 4, name: 'Sensiskin Garden Purles', description: 'Zabieg dla skóry wrażliwej i naczyniowej.', photo: zdjecie4, link: "sensiskingardenpurles" },
             { id: 5, name: 'Mikro', description: 'lubudubuduvudu', photo: zdjecie5, },
       ];
