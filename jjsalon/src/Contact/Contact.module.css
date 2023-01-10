@@ -3,7 +3,7 @@
   form {
     width: 70vw;
     margin: 0 auto;
-    padding: 22vw 0 8vw 0;
+    padding: 13vw 0 8vw 0;
   }
   
   h1 {
@@ -95,7 +95,7 @@
 
   .formWrapper p {
     padding-bottom: 1.5vw;
-    font-size: 4.5vw;
+    font-size: 4vw;
   }
 
   .contactWrapper {
@@ -120,12 +120,12 @@
 
   .contactPhone {
     justify-items: center;
-    padding-top: 1vw;
+    padding-top: 4vw;
   }
 
   .contactPhone span {
     padding-left: 1vw;
-    font-size: 6vw;
+    font-size: 4.4vw;
   }
 
   .iconContactWrapper {
@@ -139,11 +139,16 @@
   }
 
   a {
+    color: rgba(44,44,44,1);
     text-decoration: none;
   }
 
   a:visited {
     text-decoration: none;
+    color: rgba(44,44,44,1);
+  }
+
+  a:active {
     color: rgba(44,44,44,1);
   }
 

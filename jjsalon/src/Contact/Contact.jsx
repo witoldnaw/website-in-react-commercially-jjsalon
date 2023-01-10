@@ -73,7 +73,7 @@ export function Contact() {
         <div className={styles.iconContactWrapper}>
           <a target="_blank" rel="noreferrer" href="https://m.me/salon.kosmetyczny.jj/">
             <FaFacebookMessenger
-              onMouseOver={() => setOverMessenger(true)}
+              onMouseEnter={() => setOverMessenger(true)}
               onMouseLeave={() => setOverMessenger(false)}
               size={70}
               style={overMessenger ? { color: "#006AFF" } : {}}
@@ -84,7 +84,7 @@ export function Contact() {
             href="https://www.instagram.com/direct/t/340282366841710300949128315893040444225"
           >
             <FaInstagram
-              onMouseOver={() => setOverInstagram(true)}
+              onMouseEnter={() => setOverInstagram(true)}
               onMouseLeave={() => setOverInstagram(false)}
               size={70}
               style={overInstagram ? { color: "8134AF" } : {}}

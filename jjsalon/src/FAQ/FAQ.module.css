@@ -101,6 +101,10 @@
   padding: 1.2vw;
 }
 
+.linkStyle {
+  color: rgba(44, 44, 44, 1);
+}
+
 /* ----- */
 
 @media (min-width: 1000px) {

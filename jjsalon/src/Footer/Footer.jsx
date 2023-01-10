@@ -61,7 +61,6 @@ export function Footer() {
                 </div>
             </div>
             <div className={styles.copyrightWrapper}>
-                <hr></hr>
                 <p>Witold Nawrot © 2023 All Rights Reserved</p>
             </div>
         </>
