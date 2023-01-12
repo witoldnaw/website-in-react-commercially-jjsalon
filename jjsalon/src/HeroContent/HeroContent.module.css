@@ -3,21 +3,23 @@
     display: flex;
     justify-content: end;
     align-items: center;
-    padding-top: 20vw;
+    padding-top: 30vw;
     transition: 0.2s
 }
 
 .HeroWrapper p{
-    margin-left: 3vw;
+    margin-left: 1vw;
     position: absolute;
     left: 0;
     z-index: 4;
-    font-size: 7vw;
+    font-size: 12vw;
     font-family: Italianno;
+    text-align: center;
+    width: 50%;
 }
 
 .logo {
-    width: 65vw;
+    width: 75vw;
     right: 0;
 }
 

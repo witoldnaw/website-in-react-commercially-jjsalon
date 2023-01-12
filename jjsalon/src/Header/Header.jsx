@@ -6,16 +6,16 @@ import { Link } from "react-router-dom";
 export function Header() {
   const [navColor, setnavColor] = useState("#f1ebe7");
   const [navDisplay, setDisplay] = useState("flex");
-  const [navGridTemplateRows, setGridTemplateRows] = useState("7vw 13vw");
-  const [navLogoWidth, setLogoWidth] = useState("30vw");
+  const [navGridTemplateRows, setGridTemplateRows] = useState("7vw 17vw");
+  const [navLogoWidth, setLogoWidth] = useState("50vw");
   const [navBtnWrapper, setBtnWrapper] = useState("1vw")
 
 
   const listenScrollEvent = () => {
     window.scrollY > 10 ? setnavColor("#f1ebe7") : setnavColor("#f1ebe7");
     window.scrollY > 10 ? setDisplay("none") : setDisplay("flex");
-    window.scrollY > 10 ? setGridTemplateRows("0vw 7vw") : setGridTemplateRows("7vw 13vw");
-    window.scrollY > 10 ? setLogoWidth ("20vw") : setLogoWidth("30vw");
+    window.scrollY > 10 ? setGridTemplateRows("0vw 7vw") : setGridTemplateRows("7vw 17vw");
+    window.scrollY > 10 ? setLogoWidth ("20vw") : setLogoWidth("50vw");
     window.scrollY > 10 ? setBtnWrapper ("0") : setBtnWrapper("1vw")
   };
 
@@ -36,9 +36,11 @@ export function Header() {
           display: navDisplay,
   }}>
     <div className={styles.adressWrapper}>
-      <div>
+      
+        <div className={styles.openHouer}>
     <p>pn-pt 9:00 - 20:00 | sb 9:00 - 15:00</p>
-      </div> 
+    </div> 
+      
       <div>
     <p>tel: 536 998 007</p>
       </div> 

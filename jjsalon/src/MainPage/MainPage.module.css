@@ -3,7 +3,7 @@
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    margin: 0 0;
+    margin: 4vw 0;
     height: 50vw;
     opacity: 0.9;
     justify-content: left;
@@ -12,7 +12,7 @@
 
 .reservationWrapper {
     height: 30vw;
-    width: 50vw;
+    /* width: 50vw; */
     margin: 10vw 2vw;
     font-weight: 500;
     font-size: 2.2vw;
@@ -22,8 +22,12 @@
     line-height: 3vw;
 }
 
+.reservationWrapper p {
+    margin: 4vw;
+}
+
 .reservationWrapper span{
-    font-size: 1.8vw;
+    font-size: 3vw;
     font-weight: 400;
 } 
 
@@ -36,8 +40,9 @@
     border-width: 0.3vw;
     border-color: white;
     padding: 1.2vw;
-    font-size: 2vw;
+    font-size: 3vw;
     font-weight: bold;
+    font-family: Montserrat;
     background-color: transparent;
     color: white;
 }

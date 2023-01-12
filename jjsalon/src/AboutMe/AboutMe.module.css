@@ -11,27 +11,27 @@
 }
 
 .image {
-  width: 80vw;
+  width: 60vw;
   height: auto;
   opacity: 0.8;
 }
 
 .aboutMe{
-font-size: 1.9vw;
+font-size: 4vw;
 text-align: center;
 font-weight: 300;
 padding: 2vw 7vw;
-line-height: 4vw;
+line-height: 5.5vw;
 }
 
 .btn {
     margin: 3vw 2vw;
-    width: 15vw;
-    height: 5vw;
+    width: 22vw;
+    height: 9vw;
     border-style: none;
     background-color: rgba(44,44,44,1);
     color: white;
-    font-size: 1.6vw;
+    font-size: 3vw;
     font-weight: 500;
 }
 
@@ -65,5 +65,17 @@ padding: 1vw;
 padding: 3vw 3vw;
 line-height: 2.5vw;
 }
+
+.btn {
+  margin: 3vw 2vw;
+  width: 15vw;
+  height: 5vw;
+  border-style: none;
+  background-color: rgba(44,44,44,1);
+  color: white;
+  font-size: 1.6vw;
+  font-weight: 500;
+}
+
 
 }

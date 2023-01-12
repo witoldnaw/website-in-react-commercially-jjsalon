@@ -1,8 +1,8 @@
 .textWrapper {
   text-align: center;
   background-color: rgba(220, 194, 156, 1);
-  padding: 3vw 0;
-  font-size: 2.5vw;
+  padding: 5vw 0;
+  font-size: 4vw;
   font-weight: 300;
 }
 
@@ -40,7 +40,7 @@
   border-style: none;
   height: 5vw;
   width: 100%;
-  font-size: 1.5vw;
+  font-size: 2.7vw;
   position: relative;
   box-sizing: border-box;
   display: inline-block;
@@ -77,7 +77,7 @@
 #btnZabiegi:hover {
   color: white;
   font-weight: bold;
-  font-size: 1.5vw;
+  font-size: 2.7vw;
   background-color: rgb(255, 255, 255);
   transition: color 0.3s ease, background 0s ease 0.3s;
 } 
@@ -135,6 +135,7 @@ a:visited {
   .btnNameZabiegi{
     bottom: 0.5vw;
     height: 4vw;
+    font-size: 1.5vw;
   } 
   
   .containererWrapper {
@@ -147,4 +148,8 @@ a:visited {
     height: 14vw;
     font-size: 1.2vw; 
   }  
+
+  #btnZabiegi:hover {
+    font-size: 1.5vw;
+  } 
 }

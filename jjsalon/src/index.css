@@ -10,11 +10,11 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: rgba(242, 239, 235, 1);
   color: rgba(44, 44, 44, 1);
-  font-family: Montserrat;
+  font-family: Roboto;
 
 }
 
-code {
+/* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
-}
+} */

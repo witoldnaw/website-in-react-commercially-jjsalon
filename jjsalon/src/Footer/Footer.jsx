@@ -36,8 +36,6 @@ export function Footer() {
                 <div className={styles.kontaktWrapper}>
                     <img className={styles.footerLogo} src={logo} alt="logo"></img>
                     <div className={styles.kontakt}>
-                        <h5>Salon kosmetyczny</h5>
-                        <h5>Joanna Jaruszewska</h5>
                         <div>
                             <FaPhone className={styles.iconPhone} />
                             <span>536 998 007</span>
