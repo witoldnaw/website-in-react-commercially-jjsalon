@@ -6,7 +6,8 @@
   z-index: 5;
   transition: all 1s;
   position: fixed;
-  width: 100%
+  width: 100%;
+  background-color: #f1ebe7;
 }
 
 .HeaderDataWrapper {
@@ -26,7 +27,8 @@
   padding: 2vw 3vw;
   grid-row: 1/2;
   grid-column: 2/3;
-  font-size: 3vw;
+  font-size: 3.3vw;
+  color:#41403e;
 }
 
 .btn {
@@ -62,6 +64,7 @@
 .btnWrapper {
   grid-row: 2/3;
   grid-column: 2/3;
+  display: none;
 }
 
 .button55 {
@@ -126,13 +129,17 @@ padding-left: 4vw;
   z-index: 5;
 }
 
+.openHouer {
+  display: flex;
+}
+
 .HeaderDataWrapper {
   padding-bottom: 0;
 }
 
 .adressWrapper {
 justify-content:space-between;
-font-size: 1.2vw;
+font-size: 1.3vw;
 display: flex;
 background-color: rgba(220, 194, 156, 1);
 width: 100%;

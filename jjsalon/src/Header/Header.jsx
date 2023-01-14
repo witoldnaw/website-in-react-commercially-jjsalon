@@ -1,21 +1,31 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect} from "react";
+import { useMediaQuery } from "@mui/material";
 import styles from "./Header.module.css";
 import logo from "./logoPoziome111.png"
 import { Link } from "react-router-dom";
+import MediaQuery from 'react-responsive'
+import { Box } from "@mui/system";
+import BurgerMenu from "../BurgerMenu/BurgerMenu";
 
 export function Header() {
-  const [navColor, setnavColor] = useState("#f1ebe7");
+  // const [navColor, setnavColor] = useState(false);
   const [navDisplay, setDisplay] = useState("flex");
-  const [navGridTemplateRows, setGridTemplateRows] = useState("7vw 17vw");
-  const [navLogoWidth, setLogoWidth] = useState("50vw");
+  const [navGridTemplateRows, setGridTemplateRows] = useState("5vw 14vw");
+  const [PaddingTopMobile, setPaddingTopMobile] = useState("5vw");
   const [navBtnWrapper, setBtnWrapper] = useState("1vw")
-
+  const [navLogoWidth, setLogoWidth] = useState("35vw");
+  const [navLogoWidthMobile, setLogoWidthMobile] = useState("45vw");
+  const [isOpen, setIsOpen] = useState(false)
+  const toggleOpen = () => {
+    setIsOpen(!isOpen)
+  }
 
   const listenScrollEvent = () => {
-    window.scrollY > 10 ? setnavColor("#f1ebe7") : setnavColor("#f1ebe7");
     window.scrollY > 10 ? setDisplay("none") : setDisplay("flex");
-    window.scrollY > 10 ? setGridTemplateRows("0vw 7vw") : setGridTemplateRows("7vw 17vw");
-    window.scrollY > 10 ? setLogoWidth ("20vw") : setLogoWidth("50vw");
+    window.scrollY > 10 ? setPaddingTopMobile("0vw") : setPaddingTopMobile("5vw");
+    window.scrollY > 10 ? setLogoWidthMobile ("20vw") : setLogoWidthMobile("45vw");
+    window.scrollY > 10 ? setGridTemplateRows("0vw 7vw") : setGridTemplateRows("5vw 14vw");
+    window.scrollY > 10 ? setLogoWidth ("20vw") : setLogoWidth("30vw");
     window.scrollY > 10 ? setBtnWrapper ("0") : setBtnWrapper("1vw")
   };
 
@@ -25,12 +35,16 @@ export function Header() {
       window.removeEventListener("scroll", listenScrollEvent);
     };
   }, []);
+
+
     return (
             <>
-    <div className={styles.headerWrapper}  style={{
-          backgroundColor: navColor,
-          gridTemplateRows: navGridTemplateRows,
-        }}>
+          
+    <div className={styles.headerWrapper} style={{
+    gridTemplateRows: navGridTemplateRows,
+    }}>
+
+     
 
 <div className={styles.HeaderDataWrapper} style={{
           display: navDisplay,
@@ -54,19 +68,28 @@ export function Header() {
     <button className={styles.btn}>Umów wizytę</button>
     </Link>
   </div>
-
-
-
 </div>
 <div className={styles.logoWrapper}>
+
 <Link to="/">
+<MediaQuery query='(min-width: 768px)'>
+  {matches =>
+    matches ? (
         <img className={styles.logo} src={logo} alt="dfsf"
-        style={{
-          width: navLogoWidth,
-}}/>
+        style={{width: navLogoWidth}}
+        ></img>
+        ) : ( 
+          <img className={styles.logo} src={logo} alt="dfsf"
+          style={{width: navLogoWidthMobile,
+                  paddingTop: PaddingTopMobile}}></img>
+          )
+        }
+        </MediaQuery>
+
 </Link>
-    
+
      </div>
+     {/* <BurgerMenu/> */}
      <div className={styles.btnWrapper} style={{
           paddingTop: navBtnWrapper}}>
             
@@ -77,8 +100,9 @@ export function Header() {
             <Link to="/kontakt"><button className={styles.button55}>Kontakt</button></Link>
 
             </div>
+            <BurgerMenu/>
         </div>
-       
+        {/* <BurgerMenu/> */}
         </>
         )
     }

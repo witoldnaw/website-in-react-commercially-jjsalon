@@ -59,7 +59,7 @@
     border: none;
     margin-top: 40px;
     padding: 20px;
-    font-size: 16px;
+    font-size: 3.5vw;
     font-weight: 100;
     letter-spacing: 10px;
   }
@@ -158,19 +158,22 @@
 
     form {
       width: 25vw;
+      padding: 21vw 0 8vw 0;
     }
 
+
     .formWrapper p {
-      font-size: 2.2vw;
+      font-size: 2vw;
     }
   
     .contactWrapper {
       display: flex;
       flex-direction: row;
+      margin-right: 15vw;
     }
   
     .registerSocialMedia {
-      padding-top: 22vw;
+      padding-top: 21vw;
       text-align: left;
     }
   
@@ -181,6 +184,7 @@
   
     .contactPhone {
       display: flex;
+      padding-top: 4vw;
     }
   
     .contactPhone span {
@@ -188,7 +192,7 @@
     }
   
     .iconContactWrapper {
-      padding-top: 4vw;
+      padding-top: 5vw;
       justify-content: space-between;
     }
  
@@ -200,7 +204,7 @@
       border: 1px solid white;
       padding: 10px 15px;
       margin-bottom: 10px;
-      font-size: 3vw;
+      font-size: 1vw;
     }
   
     label {
@@ -213,5 +217,11 @@
       font-size: 14px;
       font-weight: 200;
     }
+
+    button[type="submit"],
+    input[type="submit"] {
+      font-size: 1.5vw;
+    }
+
 
   }

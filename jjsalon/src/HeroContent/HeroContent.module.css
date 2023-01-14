@@ -4,7 +4,7 @@
     justify-content: end;
     align-items: center;
     padding-top: 30vw;
-    transition: 0.2s
+    transition: 0.2s;
 }
 
 .HeroWrapper p{
@@ -26,8 +26,11 @@
 @media (min-width: 1000px) {
 
     .HeroWrapper p{
-        font-size: 7vw;
+        font-size: 9vw;
     }
 
+    .HeroWrapper {
+        padding-top: 20vw;
+    }
 }
 

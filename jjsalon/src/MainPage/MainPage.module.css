@@ -15,7 +15,7 @@
     /* width: 50vw; */
     margin: 10vw 2vw;
     font-weight: 500;
-    font-size: 2.2vw;
+    font-size: 3.3vw;
     text-align: center;
     color: white;  
     z-index: 3;
@@ -32,7 +32,7 @@
 } 
 
 .btnReservation {
-    margin-top: 2vw;
+    margin-top: 6vw;
 }
 
 .btnReservationWrapper {
@@ -71,7 +71,7 @@
     .reservationWrapper {
         height: 25vw;
         width: 50vw;
-        margin: 11vw 2vw;
+        margin: 6vw 2vw;
         font-weight: 500;
         font-size: 2vw;
         text-align: center;
@@ -80,9 +80,13 @@
     }
     
     .reservationWrapper span{
-        font-size: 1.3vw;
+        font-size: 1.5vw;
         font-weight: 400;
     } 
+
+    .reservationWrapper p {
+    margin: 2vw;
+}
     
     .btnReservation {
         margin-top: 2vw;

@@ -45,9 +45,9 @@
     }
     
     .myPhoto {
-        width: 50vw;
-        padding-right: 3vw;
-    
+        width: 55vw;
+        height: 35vw;
+        padding: 0;
     }
     
     .emptyDiv {

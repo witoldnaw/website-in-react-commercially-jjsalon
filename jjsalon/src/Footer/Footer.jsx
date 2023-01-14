@@ -44,7 +44,7 @@ export function Footer() {
                         <div>
                             <FaMap className={styles.iconMap} />
                             <span>
-                                Rynarzewo <br></br>Kalinowa 10,
+                                Rynarzewo <br></br>Kalinowa 10
                             </span>
                         </div>
                     </div>
