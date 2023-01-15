@@ -89,7 +89,7 @@ export function Header() {
 </Link>
 
      </div>
-     {/* <BurgerMenu/> */}
+     
      <div className={styles.btnWrapper} style={{
           paddingTop: navBtnWrapper}}>
             
@@ -98,11 +98,10 @@ export function Header() {
             <Link to="/cennik"><button className={styles.button55}>Cennik</button></Link>
             <Link to="/galeria"><button className={styles.button55}>Galeria</button></Link>
             <Link to="/kontakt"><button className={styles.button55}>Kontakt</button></Link>
-
+          
             </div>
-            <BurgerMenu/>
         </div>
-        {/* <BurgerMenu/> */}
+        <BurgerMenu/>
         </>
         )
     }
@@ -115,46 +114,4 @@ export function Header() {
 
 
 
-
-
-
-// import styles from "./Header.module.css"
-// import { Link } from 'react-router-dom'
-// // import logo from "../Pictures/logoHeader.svg"
-// import logo from "../Pictures/logoBaner.svg"
-
-
-// export function Header() {
-//     return (
-//         <>
-// <div className={styles.headerWrapper}>
-//     {/* <img className={styles.logo} src={logo} alt="dfsf"/> */}
-//     <img className={styles.logo} src={logo} alt="dfsf"/>
-
-//  <div className={styles.navigation}>
-        
-//         <button className={styles.button55}>Home</button> 
-//         <button className={styles.button55}>O mnie</button> 
-//         <button className={styles.button55}>Cennik</button> 
-//         <button className={styles.button55}>Kontakt</button>
-// </div>
-//         <div className={styles.socialMedia}>
-//         <button className={styles.btnBack}>Zaloguj się</button> 
-
-//         </div>
-
-
-//     </div>
-//     </>
-//     )
-// }
-
-
-// export function scrollFunction() {
-//     if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-//       logo.style.width = "30px";
-//     } else {
-//       logo.style.width = "90px";
-//     }
-//   }
 

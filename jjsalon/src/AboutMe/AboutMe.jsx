@@ -2,6 +2,7 @@ import styles from "./AboutMe.module.css";
 import zdjecie6 from "./IMG_2033.jpg";
 import { Link } from "react-router-dom";
 
+
 export const AboutMe = () => {
   return (
     <>

@@ -9,18 +9,24 @@ const BurgerMenu = () => {
     }
 
     return (
+        <>
         <div className="burger-menu">
             <button className={`burger-button ${isOpen ? 'open' : ''}`} onClick={toggleOpen}>
                 <div className="burger-line"></div>
                 <div className="burger-line"></div>
                 <div className="burger-line"></div>
             </button>
+            </div>
             <nav className={`menu ${isOpen ? 'open' : ''}`}>
-                <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Contact</a>
+            <div className='exitWrapper'>
+                    <button className={`exit ${isOpen ? 'open' : ''}`} onClick={toggleOpen}><p>X</p></button>
+                    </div>
+                <a href="#">O mnie</a>
+                <a href="#">Cennik</a>
+                <a href="#">Galeria</a>
+                <a href="#">Kontakt</a>
             </nav>
-        </div>
+            </>
     );
 }
 
