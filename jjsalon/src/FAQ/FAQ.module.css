@@ -1,7 +1,7 @@
 .textWrapper {
   text-align: center;
   background-color: rgba(220, 194, 156, 1);
-  padding: 5vw 0;
+  padding: 5vw 3vw;
   font-size: 4vw;
   font-weight: 300;
 }
@@ -12,13 +12,12 @@
 
 .faqWrapper {
   display: grid;
-  grid-template-columns: 40vw 40vw;
-  grid-template-rows: 35vw 35vw 35vw;
+  grid-template-columns: 80vw;
+  grid-template-rows: 70vw 70vw 70vw 70vw 70vw;
   justify-items: center;
   position: relative;
   background-color: rgba(220, 194, 156, 1);
   padding: 0 8vw 2vw 8vw;
-  gap: 4.5vw;
   z-index: 0;
 }
 
@@ -38,9 +37,9 @@
   margin: 0;
   background-color: #f1ebe7;
   border-style: none;
-  height: 5vw;
+  height: 8vw;
   width: 100%;
-  font-size: 2.7vw;
+  font-size: 3.5vw;
   position: relative;
   box-sizing: border-box;
   display: inline-block;
@@ -50,6 +49,7 @@
   text-decoration: none;
   white-space: nowrap;
   z-index: 0;
+  color:rgba(44, 44, 44, 1);
 } 
 
 .btnNameZabiegi i {
@@ -77,15 +77,15 @@
 #btnZabiegi:hover {
   color: white;
   font-weight: bold;
-  font-size: 2.7vw;
+  font-size: 3.5vw;
   background-color: rgb(255, 255, 255);
   transition: color 0.3s ease, background 0s ease 0.3s;
 } 
 
 .containererWrapper {
   position: absolute;
-  width: 36vw;
-  height: 26vw;
+  width: 75vw;
+  height: 55vw;
   background-color: transparent;
   bottom: 7vw;
   right: 2vw;
@@ -93,10 +93,10 @@
 }
 
 .containerer {
-  width: 34vw;
-  height: 22vw;
+  width: 70vw;
+  height: 40vw;
   background-color: rgb(255, 255, 255, 0.4);
-  font-size: 2vw;  
+  font-size: 4vw;  
   z-index: -2;
   padding: 1.2vw;
 }
@@ -118,12 +118,78 @@ a:visited {
 }
 
 /* ----- */
+@media (min-width: 768px) {
+
+  .btnNameZabiegi{
+    font-size: 3.5vw;
+  } 
+
+  #btnZabiegi:hover {
+    font-size: 3.5vw;
+  } 
+
+
+.faqWrapper {
+  grid-template-columns: 40vw 40vw;
+  grid-template-rows: 35vw 35vw 35vw;
+}
+
+.faqWrapper {
+  display: grid;
+  grid-template-columns: 40vw 40vw;
+  grid-template-rows: 35vw 35vw 35vw 35vw 35vw;
+  justify-items: center;
+  position: relative;
+  background-color: rgba(220, 194, 156, 1);
+  padding: 0 8vw 2vw 8vw;
+  gap: 4.5vw;
+  z-index: 0;
+}
+
+.btnNameZabiegi{
+  margin: 0;
+  background-color: #f1ebe7;
+  border-style: none;
+  height: 5vw;
+  width: 100%;
+  font-size: 2.4vw;
+  position: relative;
+  box-sizing: border-box;
+  display: inline-block;
+  overflow: hidden;
+  bottom: 2.5vw;
+  text-align: center;
+  text-decoration: none;
+  white-space: nowrap;
+  z-index: 0;
+} 
+
+.containererWrapper {
+  position: absolute;
+  width: 36vw;
+  height: 26vw;
+  background-color: transparent;
+  bottom: 7vw;
+  right: 2vw;
+  z-index: 2;
+}
+
+.containerer {
+  width: 34vw;
+  height: 22vw;
+  background-color: rgb(255, 255, 255, 0.4);
+  font-size: 2vw;  
+  z-index: -2;
+  padding: 1.2vw;
+}
+
+}
 
 @media (min-width: 1000px) {
 
   .textWrapper {
     padding: 2vw 0;
-    font-size: 2vw;
+    font-size: 1.6vw;
   }
   
   .faqWrapper {

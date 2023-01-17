@@ -1,81 +1,94 @@
-
 .burger-menu {
-    position: relative;
-    padding-left: 80vw;
-    justify-content: center;
-    top: 13vw;
-    z-index: 10;
+  padding-left: 80vw;
+  padding-top: 15vw;
+  justify-content: center;
 }
 
 .burger-button {
-    /* position: absolute; */
-    /* right: -70vw; */
-    width: 10vw;
-    height: 10vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    background: transparent;
-    border: none;
-    cursor: pointer;
-    z-index: 10;
+  position: absolute;
+  width: 15vw;
+  height: 10vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  z-index: 10;
 }
 
 .burger-line {
-    width: 30px;
-    height: 2px;
-    background: #000;
-    z-index: 10;
+  width: 8vw;
+  height: 0.5vw;
+  background: rgba(44, 44, 44, 1);
+  z-index: 10;
 }
 
 .burger-button.open {
-    transform: rotate(45deg);
-    z-index: 10;
+  transform: rotate(45deg);
+  z-index: 10;
 }
 
 .menu {
-    position: fixed;
-    width: 65vw; 
-    height: 60vw;
-    z-index: 10;
-    display: flex;
-    flex-direction: column;
-    background: rgba(44, 44, 44, 1);
-    padding: 20px;
-    box-shadow: 0 0 10px #000;
-    transform: translateX(-100%);
-    transition: transform 0.5s ease-in-out;
+  position: fixed;
+  margin-top: 10vw;
+  width: 50vw;
+  height: 60vw;
+  z-index: 30;
+  display: flex;
+  flex-direction: column;
+  background: rgba(44, 44, 44, 1);
+  padding: 20px;
+  /* box-shadow: 0 0 10px #000; */
+  transform: translateX(-100%);
+  transition: transform 0.5s ease-in-out;
 }
 
 .menu.open {
-    transform: translateX(0);
-    z-index: 10;
+  transform: translateX(0);
+  z-index: 30;
 }
 
-.menu a {
-    margin: 10px 0;
-    text-decoration: none;
-    font-size: 18px;
-    z-index: 10;
-    color: white;
+.menuLink {
+  text-decoration: none;
+  border-style: none;
+  padding: 2vw 2vw;
+  background-color: transparent;
+  font-size: 5vw;
+  z-index: 10;
+  color: white;
 }
 
 .menu a:visited {
-    color: white;
+  color: white;
 }
 
 .exitWrapper {
-    width: 100%;
-    text-align: end;
+  width: 100%;
+  text-align: end;
 }
 
 .exit {
-    border-style: none;
-    background-color: transparent;
-    font-size: 6vw;
+  border-style: none;
+  background-color: transparent;
+  font-size: 6vw;
 }
 
 .exit p {
-    color: white;
+  color: white;
+}
+
+@media (min-width: 768px) {
+  .burger-menu {
+    display: none;
+  }
+
+  .burger-button {
+    display: none;
+  }
+
+  .menu {
+    display: none;
+  }
 }

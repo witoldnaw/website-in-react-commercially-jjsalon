@@ -3,7 +3,8 @@
     display: flex;
     justify-content: end;
     align-items: center;
-    padding-top: 30vw;
+    padding-top: 40vw;
+    padding-bottom: 2vw;
     transition: 0.2s;
 }
 
@@ -22,6 +23,18 @@
     width: 75vw;
     right: 0;
 }
+
+@media (min-width: 769px) {
+    .HeroWrapper {
+        padding-top: 22vw;
+    }
+
+    .logo {
+        width: 75vw;
+        right: 0;
+    }
+}
+
 
 @media (min-width: 1000px) {
 

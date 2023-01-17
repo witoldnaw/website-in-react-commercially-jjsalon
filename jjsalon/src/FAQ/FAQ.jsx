@@ -6,7 +6,7 @@ import zdjecie1 from "./zdj01.jpg";
 import zdjecie2 from "./Zdjecie2.jpg";
 import zdjecie3 from "./Zdjecie3.jpg";
 import zdjecie4 from "./sensiskin.jpg";
-import zdjecie5 from "./Zdjecie5.jpg";
+import zdjecie5 from "./zdjecie5.jpg";
 
 
 export const FAQ = () => {
@@ -16,7 +16,7 @@ export const FAQ = () => {
             { id: 2, name: 'Mikrodermabrazja', description: 'To zabieg pielęgnacyjny skóry polegający na mechanicznym ścieraniu martwego naskórka.', photo: zdjecie3, link: "mikrodermabrazja" },
             { id: 3, name: 'Peeling kawitacyjny', description: 'To zabieg polegający na oczyszczeniu skóry za pomocą ultradźwięków. Usuwanie zanieczyszczeń oraz martwych komórek przebiega bezpiecznie i bezboleśnie.', photo: zdjecie2, link: "peelingkawitacyjny" },
             { id: 4, name: 'Sensiskin Garden Purles', description: 'Zabieg dla skóry wrażliwej i naczyniowej.', photo: zdjecie4, link: "sensiskingardenpurles" },
-            { id: 5, name: 'Mikro', description: 'lubudubuduvudu', photo: zdjecie5, },
+            { id: 5, name: 'PQ AGE', description: 'to peeling z właściwościami ujędrniająco- liftingującymi, zapewniający głęboką stymulację skóry.', photo: zdjecie5, link: "PQAGE" },
       ];
 
       const [display, setHover] = useState(false);

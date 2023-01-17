@@ -1,10 +1,10 @@
 .treatmentsWrapper {
     background-color: rgba(220, 194, 156, 1);;
     text-align: center;
-    line-height: 4vw;
+    line-height: 4.7vw;
     padding: 4vw 10vw;
     margin-bottom: 4vw;
-    font-size: 3vw;
+    font-size: 3.8vw;
 } 
 
 .treatmentsWrapper li {
@@ -15,11 +15,11 @@
 ul {
     list-style-position: inside;
     padding-right: 12vw;
-    font-size: 3vw;
+    font-size: 3.8vw;
 }
 
 .treatmentsPageWrapper {
-    padding: 18vw 10vw 5vw 10vw;
+    padding: 25vw 10vw 5vw 10vw;
 }
 
 
@@ -28,7 +28,7 @@ ul {
     .treatmentsWrapper {
         background-color: rgba(220, 194, 156, 1);;
         text-align: center;
-        line-height: 2.3vw;
+        line-height: 4.3vw;
         padding: 4vw 10vw;
         margin-bottom: 4vw;
     } 

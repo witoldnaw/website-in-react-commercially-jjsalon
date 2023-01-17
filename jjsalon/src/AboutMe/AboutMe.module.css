@@ -12,7 +12,7 @@
 }
 
 .image {
-  width: 60vw;
+  width: 70vw;
   height: auto;
   opacity: 0.8;
 }
@@ -41,7 +41,7 @@ line-height: 5.5vw;
   opacity: 0.8;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 768px) {
 
 .aboutMeWrapper {
   display: grid;

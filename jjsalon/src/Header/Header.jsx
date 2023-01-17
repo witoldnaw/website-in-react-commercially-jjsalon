@@ -10,11 +10,11 @@ import BurgerMenu from "../BurgerMenu/BurgerMenu";
 export function Header() {
   // const [navColor, setnavColor] = useState(false);
   const [navDisplay, setDisplay] = useState("flex");
-  const [navGridTemplateRows, setGridTemplateRows] = useState("5vw 14vw");
+  const [navGridTemplateRows, setGridTemplateRows] = useState("5vw auto");
   const [PaddingTopMobile, setPaddingTopMobile] = useState("5vw");
   const [navBtnWrapper, setBtnWrapper] = useState("1vw")
   const [navLogoWidth, setLogoWidth] = useState("35vw");
-  const [navLogoWidthMobile, setLogoWidthMobile] = useState("45vw");
+  const [navLogoWidthMobile, setLogoWidthMobile] = useState("60vw");
   const [isOpen, setIsOpen] = useState(false)
   const toggleOpen = () => {
     setIsOpen(!isOpen)
@@ -23,8 +23,8 @@ export function Header() {
   const listenScrollEvent = () => {
     window.scrollY > 10 ? setDisplay("none") : setDisplay("flex");
     window.scrollY > 10 ? setPaddingTopMobile("0vw") : setPaddingTopMobile("5vw");
-    window.scrollY > 10 ? setLogoWidthMobile ("20vw") : setLogoWidthMobile("45vw");
-    window.scrollY > 10 ? setGridTemplateRows("0vw 7vw") : setGridTemplateRows("5vw 14vw");
+    window.scrollY > 10 ? setLogoWidthMobile ("40vw") : setLogoWidthMobile("60vw");
+    window.scrollY > 10 ? setGridTemplateRows("0vw auto") : setGridTemplateRows("5vw auto");
     window.scrollY > 10 ? setLogoWidth ("20vw") : setLogoWidth("30vw");
     window.scrollY > 10 ? setBtnWrapper ("0") : setBtnWrapper("1vw")
   };
@@ -44,7 +44,7 @@ export function Header() {
     gridTemplateRows: navGridTemplateRows,
     }}>
 
-     
+<BurgerMenu/>
 
 <div className={styles.HeaderDataWrapper} style={{
           display: navDisplay,
@@ -81,9 +81,12 @@ export function Header() {
         ) : ( 
           <img className={styles.logo} src={logo} alt="dfsf"
           style={{width: navLogoWidthMobile,
-                  paddingTop: PaddingTopMobile}}></img>
+                  paddingTop: PaddingTopMobile,
+                  zIndex: "20"}}></img>
+                  
           )
         }
+        
         </MediaQuery>
 
 </Link>
@@ -101,7 +104,7 @@ export function Header() {
           
             </div>
         </div>
-        <BurgerMenu/>
+        
         </>
         )
     }

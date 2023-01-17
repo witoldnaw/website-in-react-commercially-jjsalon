@@ -2,7 +2,7 @@ import styles from "./Contact.module.css";
 import React from "react";
 import { useForm } from "react-hook-form";
 import { useState, useEffect, useRef } from "react";
-import { FaFacebookMessenger, FaInstagram, FaPhoneAlt } from "react-icons/fa";
+import { FaFacebookMessenger, FaInstagram, FaPhoneAlt, FaEnvelope } from "react-icons/fa";
 import  MapInteractive  from "../MapGoogle/MapGoogle";
 import emailjs from '@emailjs/browser';
 
@@ -16,7 +16,13 @@ export function Contact() {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_ztqn2ir', 'template_vf13502', form.current, 'WNnqmcqD6q0krmcyW')
+    emailjs
+    .sendForm(
+      'service_ztqn2ir',
+       'template_vf13502', 
+       form.current, 
+       'pXsK-iqklQ6WCvS9w')
+       
       .then((result) => {
           console.log(result.text);
       }, (error) => {
@@ -49,26 +55,29 @@ export function Contact() {
       <div className={styles.formWrapper}>
         <form ref={form} onSubmit={sendEmail}>
           <p>Wyślij wiadomość</p>
-          <input type="text" placeholder="Imię"/>
+          <input type="text" placeholder="Imię" name="user_name"/>
           <input
-            type="text"
+            type="email"
             placeholder="Email"
+            name="user_email"
             {...register("Email", { required: true, pattern: /^\S+@\S+$/i })}
           />
-          <input type="text" placeholder="Tytuł" {...register} />
+          <input type="text" placeholder="Tytuł"/>
           <input
             type="text"
             placeholder="Wiadomość"
-            {...register("Wiadomość", {})}
+            name="messeage"
           />
-          <input type="submit"/>
+          <input type="submit" value="Send"/>
         </form>
       </div>
       <div className={styles.registerSocialMedia}>
         <p>Zapisz się:</p>
         <div className={styles.contactPhone}>
-          <FaPhoneAlt size={30} />
-          <span>536 998 007</span>
+          <div><FaPhoneAlt size={30} />
+          <span>536 998 007</span></div>
+          <div><FaEnvelope size={30}/>
+          <span>kontakt@jjsalon.pl</span></div>
         </div>
         <div className={styles.iconContactWrapper}>
           <a target="_blank" rel="noreferrer" href="https://m.me/salon.kosmetyczny.jj/">

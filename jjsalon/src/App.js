@@ -13,6 +13,7 @@ import { Mikrodermabrazja } from './BeautyTreatments/Treatments/Mikrodermabrazja
 import { PeelingKawitacyjny } from './BeautyTreatments/Treatments/PeelingKawitacyjny';
 import { RetixC } from './BeautyTreatments/Treatments/RetixC';
 import { SensiskinGardenPurles } from './BeautyTreatments/Treatments/SensiskinGardenPurles';
+import { PQAGE } from './BeautyTreatments/Treatments/PQ AGE';
 
 function App() {
 
@@ -30,6 +31,7 @@ function App() {
       <Route path="peelingkawitacyjny" element={<PeelingKawitacyjny/>}></Route>
       <Route path="retixc" element={<RetixC/>}></Route>
       <Route path="sensiskingardenpurles" element={<SensiskinGardenPurles/>}></Route>
+      <Route path="PQAGE" element={<PQAGE/>}></Route>
 </Routes>
       <Footer/>
       </BrowserRouter>
