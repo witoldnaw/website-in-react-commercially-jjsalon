@@ -15,9 +15,10 @@
     width: 44vw;
   }
 
-  @media (min-width: 820px) {
+  @media (min-width: 768px) {
     .masonry {
       column-count: 3;
+      padding-top: 22vw;
     }
     
     .pictures {

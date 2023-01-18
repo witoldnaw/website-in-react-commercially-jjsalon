@@ -13,8 +13,8 @@ export function SensiskinGardenPurles() {
 
     return (
     <>
-    <div className={styles.treatmentsPageWrapper}>.</div>
-    <div className={styles.treatmentsWrapper}>
+    <div className={styles.treatmentsWrapper}>.</div>
+    <div className={styles.treatments}>
 
     <h2>Sensiskin Garden Purles!</h2> 
 

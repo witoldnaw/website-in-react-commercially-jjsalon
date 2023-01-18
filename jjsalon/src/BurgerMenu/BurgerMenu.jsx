@@ -3,17 +3,15 @@ import { Link } from 'react-router-dom';
 import './BurgerMenu.css';
 
 const BurgerMenu = () => {
-    const [isOpen, setIsOpen] = useState(false);
+        const [isOpen, setIsOpen] = useState(false);
 
-    const toggleOpen = () => {
+        const toggleOpen = () => {
         setIsOpen(!isOpen);
     }
-
         const [PaddingTop, setPadding] = useState("15vw");
       
         const listenScrollEvent = () => {
           window.scrollY > 10 ? setPadding("3vw") : setPadding("15vw");
-
         };
       
         useEffect(() => {
@@ -24,15 +22,13 @@ const BurgerMenu = () => {
           };
         }, []);
 
-    return (
+        return (
         <>
 
         <div className="burger-menu"  style={{
                 paddingTop: PaddingTop,
             }}>
-            <button className={`burger-button ${isOpen ? 'open' : ''}`} onClick={toggleOpen}
-           
-            >
+            <button className={`burger-button ${isOpen ? 'open' : ''}`} onClick={toggleOpen}>
                 <div className="burger-line"></div>
                 <div className="burger-line"></div>
                 <div className="burger-line"></div>

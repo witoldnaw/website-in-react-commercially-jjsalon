@@ -1,56 +1,53 @@
 .meWrapper {
-    flex-direction: column;
-    display: flex;
-    text-align: center;
-    align-items: center;
-    margin: 0 0 5vw 0;
-    padding: 2vw 2vw;
-    line-height: 5vw;
-    background-color: rgba(220, 194, 156, 1);
+  flex-direction: column;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  margin: 0 0 5vw 0;
+  padding: 2vw 2vw;
+  line-height: 5vw;
+  background-color: rgba(220, 194, 156, 1);
 }
 
 .meWrapper p {
-    padding: 3vw;
-    font-size: 4vw;
-    color: rgba(44, 44, 44, 1);
+  padding: 3vw;
+  font-size: 4vw;
+  color: rgba(44, 44, 44, 1);
 }
 
 .myPhoto {
-    text-align: center;
-    width: 75vw;
-    height: 53vw;
-    /* padding: 3vw 20vw; */
-
+  text-align: center;
+  width: 75vw;
+  height: 53vw;
+  /* padding: 3vw 20vw; */
 }
 
 .emptyDiv {
-    padding-top: 30vw;
+  padding-top: 30vw;
 }
 
-
 @media (min-width: 768px) {
+  .meWrapper {
+    flex-direction: row;
+    text-align: center;
+    display: flex;
+    margin: 0 0 5vw 0;
+    line-height: 2.5vw;
+    padding: 0;
+  }
 
-    .meWrapper {
-        flex-direction: row;
-        text-align: center;
-        display: flex;
-        margin: 0 0 5vw 0;
-        line-height: 2.5vw;
-        padding: 0;
-    }
-    
-    .meWrapper p {
-        font-size: 1.5vw;
-        padding: 1.5vw;
-    }
-    
-    .myPhoto {
-        width: 55vw;
-        height: 35vw;
-        padding: 0;
-    }
-    
-    .emptyDiv {
-        padding-top: 22vw;
-    }
+  .meWrapper p {
+    font-size: 1.5vw;
+    padding: 1.5vw;
+  }
+
+  .myPhoto {
+    width: 55vw;
+    height: 35vw;
+    padding: 0;
+  }
+
+  .emptyDiv {
+    padding-top: 22vw;
+  }
 }

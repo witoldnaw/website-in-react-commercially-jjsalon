@@ -63,9 +63,6 @@ export function Pictures() {
         <div className={styles.picturesWrapper}>
             <img className={styles.pictures} src={photo15} alt="nails"></img>
         </div>
-        {/* <div className={styles.picturesWrapper}>
-            <img className={styles.pictures} src={photo16} alt="nails"></img>
-        </div> */}
         </Box>
         </>
         )

@@ -1,49 +1,45 @@
 .treatmentsWrapper {
-    background-color: rgba(220, 194, 156, 1);;
-    text-align: center;
-    line-height: 4.7vw;
-    padding: 4vw 10vw;
-    margin-bottom: 4vw;
-    font-size: 3.8vw;
-} 
-
-.treatmentsWrapper li {
-    list-style-type: disc;
-    list-style-position: inherit;
+  padding: 25vw 10vw 5vw 10vw;
 }
 
-ul {
-    list-style-position: inside;
-    padding-right: 12vw;
-    font-size: 3.8vw;
+.treatments {
+  background-color: rgba(220, 194, 156, 1);
+  text-align: center;
+  line-height: 4.7vw;
+  padding: 4vw 10vw;
+  margin-bottom: 4vw;
+  font-size: 3.8vw;
 }
 
-.treatmentsPageWrapper {
-    padding: 25vw 10vw 5vw 10vw;
+.treatments li {
+  list-style-type: disc;
+  list-style-position: inherit;
 }
 
+ .treatments ul {
+  list-style-position: inside;
+  padding-right: 12vw;
+  font-size: 3.8vw;
+}
 
-@media (min-width: 800px) {
+@media (min-width: 768px) {
 
-    .treatmentsWrapper {
-        background-color: rgba(220, 194, 156, 1);;
-        text-align: center;
-        line-height: 4.3vw;
-        padding: 4vw 10vw;
-        margin-bottom: 4vw;
-    } 
-    
-    .treatmentsWrapper li {
-        list-style-type: disc;
-        list-style-position: inherit;
-    }
-    
-    ul {
-        list-style-position: inside;
-    }
-    
-    .treatmentsPageWrapper {
-        padding: 18vw 10vw 5vw 10vw;
-    }
-    
+  .treatmentsWrapper {
+    padding: 15vw 10vw 5vw 10vw;
+  }
+
+  .treatments {
+    line-height: 2.8vw;
+    padding: 1vw 10vw;
+    font-size: 1.3vw;
+  }
+
+  .treatments li {
+    padding-right: 1vw;
+  }
+
+  .treatments ul {
+    font-size: 1.3vw;
+    padding-right: 0;
+  }
 }

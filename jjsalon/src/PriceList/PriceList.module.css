@@ -6,7 +6,7 @@
     background-color: rgba(220, 194, 156, 1);
 }
 
-.priceListWrapperFirst {
+.priceListWrapper {
     width: 100vw;
     background-color: rgba(220, 194, 156, 1);
     text-align: left;
@@ -23,7 +23,7 @@
         padding: 25vw 0 5vw 0; 
     }
 
-    .priceListWrapperFirst {
+    .priceListWrapper {
         line-height: 34px;
         padding: 0 15vw 0 15vw;
         font-size: 24px;
