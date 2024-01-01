@@ -12,8 +12,8 @@ import { useEffect } from "react"
       
     return (
     <>
-    <div className={styles.treatmentsPageWrapper}>.</div>
-    <div className={styles.treatmentsWrapper}>
+    <div className={styles.treatmentsWrapper}>.</div>
+    <div className={styles.treatments}>
         
     <h2>PQ AGE</h2>
     

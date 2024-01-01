@@ -17,6 +17,7 @@ export function PriceList() {
             <th>Nazwa zabiegu </th>
             <th> Cena zł </th>
           </tr>
+          <h2>Zabiegi na twarz</h2>
           <tr>
             <td> Peeling kawitacyjny </td>
             <td> 130 </td>
@@ -85,13 +86,14 @@ export function PriceList() {
             <td> X-Peel: skóra dojrzała z przebarwieniami </td>
             <td> 190 </td>
           </tr>
+          <h2>Manicure</h2>
           <tr>
             <td> Manicure klasyczny bez malowania </td>
-            <td> 45 </td>
+            <td> 50 </td>
           </tr>
           <tr>
             <td> Manicure hybrydowy </td>
-            <td> 80 </td>
+            <td> 100 </td>
           </tr>
           <tr>
             <td> Ściągnięcie hybrydy </td>
@@ -99,15 +101,15 @@ export function PriceList() {
           </tr>
           <tr>
             <td> Żel na naturalnej płytce </td>
-            <td> 100 </td>
-          </tr>
-          <tr>
-            <td> Przedłużenie żelem na formie </td>
             <td> 120 </td>
           </tr>
           <tr>
+            <td> Przedłużenie żelem na formie </td>
+            <td> 140 </td>
+          </tr>
+          <tr>
             <td> Uzupełnienie żelu </td>
-            <td> 100 </td>
+            <td> 120 </td>
           </tr>
           <tr>
             <td> Naprawa 1 paznokcia żelem </td>
@@ -129,13 +131,14 @@ export function PriceList() {
             <td> IBX System (kolejny zabieg) bez manicure </td>
             <td> 40 </td>
           </tr>
+          <h2>Pedicure</h2>
           <tr>
             <td> Pedicure frezarkowy </td>
             <td> 90 </td>
           </tr>
           <tr>
             <td> Pedicure frezarkowy hybryda </td>
-            <td> 110 </td>
+            <td> 130 </td>
           </tr>
           <tr>
             <td> Pedicure hybrydowy </td>
@@ -145,6 +148,7 @@ export function PriceList() {
             <td> Rekonstrukcja 1 paznokcia </td>
             <td> +10 </td>
           </tr>
+          <h2>Zdobienia</h2>
           <tr>
             <td> Cyrkonia 1 szt. </td>
             <td> +0.5</td>
@@ -156,6 +160,77 @@ export function PriceList() {
           <tr>
             <td> Inne zdobienia</td>
             <td> </td>
+          </tr>
+          <h2>Stylizacja rzęs</h2>
+          <tr>
+            <td> Stylizacja rzęs 2-3 D</td>
+            <td> 180/190 </td>
+          </tr>
+          <tr>
+            <td> Stylizacja rzęs 4-6 D</td>
+            <td> 190/170 </td>
+          </tr>
+          <tr>
+            <td> Stylizacja rzęs 6-8 D</td>
+            <td> 200/180 </td>
+          </tr>
+          <h2>Stylizacja brwi</h2>
+          <tr>
+            <td> Regulacja brwi</td>
+            <td> 30 </td>
+          </tr>
+          <tr>
+            <td> Henna klasyczna</td>
+            <td> 40 </td>
+          </tr>
+          <tr>
+            <td> Koloryzacja farbką</td>
+            <td> 80 </td>
+          </tr>
+          <tr>
+            <td> Henna pudrowa</td>
+            <td> 90 </td>
+          </tr>
+          <tr>
+            <td> Laminacja</td>
+            <td> 110 </td>
+          </tr>
+          <tr>
+            <td> Laminacja + farbka</td>
+            <td> 130 </td>
+          </tr>
+          <tr>
+            <td> Stylizacja rzęs 2-3 D</td>
+            <td> 180/190 </td>
+          </tr>
+          <h2>Makjaz permanentny</h2>
+          <tr>
+            <td> Brwi</td>
+            <td> 600 </td>
+          </tr>
+          <tr>
+            <td> Uzupełnienie do 2 miesięcy</td>
+            <td> 150 </td>
+          </tr>
+          <tr>
+            <td> Korekta brwi do roku</td>
+            <td> 400 </td>
+          </tr>
+          <tr>
+            <td> Korekta brwi do 2 lat</td>
+            <td> 500 </td>
+          </tr>
+          <tr>
+            <td> Usta</td>
+            <td> 600 </td>
+          </tr>
+          <tr>
+            <td> Uzupełnienie do 2 miesięcy</td>
+            <td> 150 </td>
+          </tr>
+          <tr>
+            <td> Korekta ust do 2 lat</td>
+            <td> 500 </td>
           </tr>
         </table>
       </div>
